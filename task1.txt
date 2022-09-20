@@ -1,5 +1,18 @@
-Document Object :
-    The document object represent a web page that is loaded in the browser. by accessing the document object, we can add dynamic content to our webpage. the document object can be accessed with a window.document or just document
- 
-Window Object :
-   The window object is the topmost object of the DOM hierarchy, it represent a browser window or frame that displays the content of the webpage. whenever a window appears the on the screen to display the contents of the document, the window object created.
+1) HTTP 1.1 
+ ans: 
+   It works on the textual format,
+   there is head of line blocking that blocks all the request behind it untill it doesn't get it's all resoures,
+   It user request resource inlining for use getting multiple page,
+   It compresses data  by itself,
+   
+   HTTP 2
+ ans:
+   It works on the binary protocol,
+   It allows multiplexing so one TCP connection is required for multiple request,
+   It uses push frame by server that collects all multiple pages,
+   It uses HPACK for data compression,
+   
+2) Objects and it's Internal representation in Javascript
+ans:
+     Objects in javascript may be define as an unordered collection of related data of Primitive or reference types, in the key form of "key:value" Pairs, these keys can   be varibles or functions and are called properties and methods,
+  
